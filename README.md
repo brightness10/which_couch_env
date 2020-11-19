@@ -1,7 +1,7 @@
 # Which Couch Env?
 
 
-![Extensions dashboard screenshot](/demo.png)
+![Demo screenshot](/demo.png)
 
 
 ### How To Use
