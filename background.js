@@ -1,14 +1,4 @@
-// chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-//   chrome.tabs.executeScript(
-//       tabs[0].id,
-//       {code: 'document.body.style.backgroundColor = "red";'});
-// });
-
-const getEnv = (url) => {
-  const env = url.split('.')[1]
-  const isNumber = Number.isInteger(Number(env))
-  return isNumber ? 'prod' : env
-}
+const getEnv = (url) => url.includes('localhost') ? 'prod' : url.split('.')[1]
 
 const handleMessage = (request, sender, sendResponse) => {
   if (request.topic === "isCouchAddress" ) {
