@@ -6,7 +6,7 @@
 
 ### How To Use
 1. Clone this repo
-1. Go to Chrome's [extensions dashboard](chrome://extensions/) 
+1. Go to the following address chrome://extensions/
 1. Switch "Developer mode" on
 1. Click "Load unpacked"
 1. Select the `extension` folder from this repo
