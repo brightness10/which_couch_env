@@ -20,6 +20,6 @@
     "64": "64.png",
     "128": "128.png"
   },
-  "permissions": ["declarativeContent", "activeTab", "tabs"],
+  "permissions": ["tabs"],
   "manifest_version": 2
 }
